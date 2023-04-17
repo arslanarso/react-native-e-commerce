@@ -1,6 +1,6 @@
 # react-native-e-commerce
 
-E-Commerce Appliccation developed by React Native
+Bu E-Ticaret Uygulaması React Native kullanılarak yazılmıştır. Üç Ayrı sayfadan oluşmaktadır ana sayfada api'den gelen ürünlerin listelenmesi amaçlanmıştır listelemenin yapıldığı kartların üzerindeki Sepete Ekle Butonu ile Ürünlerin sepete eklenmesi amaçlanmıştır. Bu işlemler için Redux kütüphanesi kullanılmıştır ürün Detay sayfasında kullanıcının ana sayfada gördüğü ürünün detaylarına erişmesine ve dilerse buradan da ürün ekleyip çıkarmasına olanak tanımaktadır. Ana Sayfada Aynı zamanda SearchBar ile ürün araması yapılabilmektedir ve Modal Şeklinde Açılan filtrelerle Arzu edilen markaya göre ürünler filtrelenebilmektedir. Sepet ekranında ise kullanıcının sepetine eklediği ürünler listelenmektedir kullanıcı dilerse bu ekrandan sepetine eklediği ürünün miktarını arttırıp azaltabilir veya sepetten çıkartabilir.Bu ekranda da bu işlemlerin yapılabilmesi için Redux kullanılmıştır.
 ## Getting Started
 
 
