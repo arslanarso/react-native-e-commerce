@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "white",
+      "borderRadius": 5,
+      "elevation": 5,
+      "marginVertical": 8,
+      "opacity": 1,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        [
+          {
+            "overflow": "hidden",
+          },
+          [
+            {
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "height": 200,
+              "resizeMode": "cover",
+              "width": 340.9090909090909,
+            },
+          ],
+        ]
+      }
+    >
+      <FastImageView
+        defaultSource={null}
+        resizeMode="cover"
+        source={
+          {
+            "priority": "normal",
+            "uri": "https://example.com/test.jpg",
+          }
+        }
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "position": "absolute",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/icons/emptyStar.png",
+        }
+      }
+      style={
+        {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "justifyContent": "center",
+        "margin": 10,
+        "width": 150,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "blue",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "marginTop": 5,
+        }
+      }
+    >
+      19.99
+       ₺
+    </Text>
+    <Text
+      numberOfLines={1}
+      style={
+        {
+          "fontSize": 16,
+          "marginVertical": 5,
+        }
+      }
+    >
+      Test Product
+    </Text>
+    <View
+      style={
+        {
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "blue",
+            "borderRadius": 8,
+            "justifyContent": "center",
+            "marginTop": 5,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "white",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Sepete Ekle
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
